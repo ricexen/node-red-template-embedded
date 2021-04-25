@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  nodered:
+    build:
+      context: ./
+    container_name: nodered
+    ports:
+      - 1880:1880
+    volumes:
+      - ./node_modules:/server/node_modules
+      - ./assets:/server/assets
