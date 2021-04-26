@@ -208,7 +208,8 @@ module.exports = {
       title: "Node-RED"
       // image: "/absolute/path/to/header/image", // or null to remove image
       // url: "http://nodered.org" // optional url to make the header text/image a link to this url
-    }
+    },
+    projects: {},
 
     // deployButton: {
     //     type:"simple",

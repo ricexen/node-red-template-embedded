@@ -8,5 +8,4 @@ services:
     ports:
       - 1880:1880
     volumes:
-      - ./node_modules:/server/node_modules
-      - ./assets:/server/assets
+      - .:/server
